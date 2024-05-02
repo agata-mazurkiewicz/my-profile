@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(233 210 210 / 83%);
+    color: rgb(148, 99, 158);
+    font-family: Lora;
+    font-size: 18px; 
+}
+
+h1 {
+    color: rgb(198, 107, 150);
+    font-family: 800;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+
+h2 {
+    color: rgb(198, 107, 150);
+    font-family: Roboto;
+    font-weight: 600; 
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+	background-color: rgb(148, 99, 158);
+	color: white;
+	padding:10px 15px;
+	border-radius: 4px;
+}
+}
+
+div{
+	margin: 40px auto;
+    width: 700px
+    border-radius: 4px;
+    padding: 60px;
+    background: #c77e8a5e;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.1);
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width:760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width:500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card {
+
+	background-color: #c77e8a5e; 
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn {
+	background-color: white;
+	color:rgb(148, 99, 158);
+	padding:10px 15px;
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+.list-inline li {
+    margin-bottom: 20px; /* Dodaj większy odstęp między linkami */
+}
